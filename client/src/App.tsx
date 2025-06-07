@@ -10,6 +10,9 @@ import Facilities from "@/pages/facilities";
 import Contact from "@/pages/contact";
 import NotFound from "@/pages/not-found";
 
+/**
+ * Defines routing configuration for different paths in the application.
+ */
 function Router() {
   return (
     <Switch>
@@ -23,6 +26,9 @@ function Router() {
   );
 }
 
+/**
+ * Provides context and components for application routing, tooltips, and query management.
+ */
 function App() {
   return (
     <QueryClientProvider client={queryClient}>
